@@ -1,2 +1,2 @@
 #!/bin/bash
-/bin/ls -lA  | egrep -c '^d'
+echo $PATH | tr : "\n" | wc -l
